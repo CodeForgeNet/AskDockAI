@@ -109,5 +109,5 @@ app.post("/api/send", async (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Mangodesk running at http://localhost:${port}`);
+  console.log(`AskDocAI running at http://localhost:${port}`);
 });
