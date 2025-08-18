@@ -1,0 +1,197 @@
+/* Flex container for left-right layout */
+
+.main-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 24px;
+}
+
+.right-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  flex: 1 1 0;
+  min-width: 340px;
+}
+
+@media (max-width: 900px) {
+  .main-flex {
+    flex-direction: column;
+    gap: 0;
+    padding-top: 0;
+  }
+  .right-panel {
+    margin-top: 0;
+    min-width: unset;
+  }
+}
+/* style.css for Mangodesk */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f7f8fa;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 32px;
+  color: #2d6cdf;
+  font-size: 2.5rem;
+}
+
+form {
+  max-width: 500px;
+  margin: 32px auto;
+  padding: 32px 24px;
+  border-radius: 12px;
+}
+/* Improved container styles */
+.form {
+  background: #fff;
+  max-width: 540px;
+  margin: 36px auto 24px auto;
+  padding: 36px 28px 28px 28px;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(44, 62, 80, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form h1 {
+  margin-bottom: 18px;
+}
+
+.summary {
+  background: #f9fafc;
+  max-width: 540px;
+  margin: 24px auto;
+  padding: 24px 20px;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(44, 62, 80, 0.07);
+}
+
+.summary h2 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  color: #2d6cdf;
+}
+
+.sendMail {
+  background: rgba(245, 247, 255, 0.95);
+  backdrop-filter: blur(6px);
+  max-width: 540px;
+  margin: 16px auto 30px auto;
+  padding: 32px 28px 24px 28px;
+  border-radius: 18px;
+  box-shadow: 0 6px 24px rgba(44, 62, 80, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sendMail h2 {
+  margin-top: 0;
+  margin-bottom: 2px;
+  color: #2d6cdf;
+  font-size: 1.18rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.sendMail input[type="text"],
+.sendMail input[type="email"] {
+  margin-bottom: 4px;
+  padding: 16px 14px;
+  margin: 12px 0 20px 0;
+  border: 1.5px solid #b6c6e3;
+  border-radius: 8px;
+  font-size: 1.18rem;
+  box-sizing: border-box;
+  height: 54px;
+}
+
+.sendMail input:focus {
+  border-color: #2d6cdf;
+  box-shadow: 0 0 0 2px #e0e7ff;
+  outline: none;
+}
+
+.sendMail button {
+  margin-top: 10px;
+  align-self: flex-start;
+}
+
+.sendMail p#status {
+  margin-top: 10px;
+  margin-left: 0;
+  font-size: 1.05rem;
+}
+
+label {
+  font-weight: 500;
+  color: #444;
+  margin-bottom: 8px;
+  display: block;
+}
+
+input[type="file"],
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 16px 0;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+button {
+  background: #2d6cdf;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-top: 8px;
+}
+
+button:hover {
+  background: #1a4fa3;
+}
+
+h2 {
+  color: #2d6cdf;
+  margin-left: 24px;
+  margin-top: 40px;
+}
+
+pre#summary {
+  background: #fff;
+  max-width: 500px;
+  margin: 16px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 8px rgba(44, 62, 80, 0.06);
+  font-size: 1.05rem;
+  color: #333;
+  white-space: pre-wrap;
+}
+
+#status {
+  color: #2d6cdf;
+  font-weight: 500;
+  margin-left: 24px;
+  margin-top: 12px;
+}
