@@ -1,6 +1,6 @@
 # AskDockAI
 
-AskDockAI is a web-based application designed to provide interactive features for users. This project includes a simple frontend built with HTML, CSS, and JavaScript.
+AskDockAI leverages the Gemini AI model to process and analyze documents or text provided by the user. When a user uploads a document (such as a PDF or text file), the website sends the content to Gemini, which intelligently interprets the input and generates relevant output, summaries, or answers based on the document's contents. This enables users to quickly extract insights or information from their files using advanced AI capabilities directly in the browser.
 
 ## Technologies Used
 
@@ -8,9 +8,6 @@ AskDockAI is a web-based application designed to provide interactive features fo
 - **Node.js**: (if used) For backend logic and server-side operations.
 - **Gemini AI Model**: For processing and generating intelligent output from documents and text.
 
-## How It Works
-
-AskDockAI leverages the Gemini AI model to process and analyze documents or text provided by the user. When a user uploads a document (such as a PDF or text file), the website sends the content to Gemini, which intelligently interprets the input and generates relevant output, summaries, or answers based on the document's contents. This enables users to quickly extract insights or information from their files using advanced AI capabilities directly in the browser.
 
 ## Features
 
