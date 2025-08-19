@@ -1,6 +1,6 @@
 # AskDockAI
 
-AskDockAI leverages the Gemini AI model to process and analyze documents or text provided by the user. When a user uploads a document (such as a PDF or text file), the website sends the content to Gemini, which intelligently interprets the input and generates relevant output, summaries, or answers based on the document's contents. This enables users to quickly extract insights or information from their files using advanced AI capabilities directly in the browser.
+AskDockAI leverages the Gemini AI model to process and analyze user-supplied documents or text (e.g. PDFs or plain text). When a file is uploaded, the application sends the content to Gemini, which intelligently interprets it and generates relevant output—summaries, insights, or directly answers user queries—right within the browser. Plus, once the response is generated, AskDockAI will email the output to the user, enabling them to conveniently receive and reference the analysis wherever they prefer.
 
 ## Technologies Used
 
